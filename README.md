@@ -4,8 +4,8 @@ How to mock modules in Jest (and bypass dependency parameters)
 
 ## Quick tour
 
-- [./src/service.js]: A pretend function to call an external service
-- [./src/logger.js]: A logging utility
+- [`src/service.js`](src/service.js): A pretend function to call an external service
+- [`src/logger.js`](src/logger.js): A logging utility
 
 ## Dependency parameter
 
@@ -29,7 +29,11 @@ Jest provides utilities for mocking imported modules within a given test.
 
 You can look at an example [action](src/action-mm.js) and [test file](src/action-mm.test.js).
 
-🚀 Demo: convert [src/action-demo.js] and [src/action-demo.test.js] to use module mocks
+---
+
+🚀 Demo: convert demo [action](src/action-demo.js) and [test file](src/action-demo.test.js) to use module mocks
+
+---
 
 When you import a module into your test file and pass the name to `jest.mock()`, Jest creates a mocked interface for that module. Every exported function is available to you as a mock within the scope of that test.
 
