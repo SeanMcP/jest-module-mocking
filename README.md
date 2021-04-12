@@ -4,8 +4,8 @@ How to mock modules in Jest (and bypass dependency parameters)
 
 ## Quick tour
 
-- [src/service.js]: A pretend function to call an external service
-- [src/logger.js]: A logging utility
+- [./src/service.js]: A pretend function to call an external service
+- [./src/logger.js]: A logging utility
 
 ## Dependency parameter
 
