@@ -29,15 +29,13 @@ Jest provides utilities for mocking imported modules within a given test.
 
 You can look at an example [action](src/action-mm.js) and [test file](src/action-mm.test.js).
 
-<div style="background-color:var(--color-border-secondary);padding:16px">
-
-🚀 Demo: convert demo [action](src/action-demo.js) and [test file](src/action-demo.test.js) to use module mocks
-
-</div>
-
 When you import a module into your test file and pass the name to `jest.mock()`, Jest creates a mocked interface for that module. Every exported function is available to you as a mock within the scope of that test.
 
 This provides the same benefits as a dependency parameter, while reducing the amount of code within the module. By imposing no opinion to parameters for the sake of testing, function are free to interface with whatever architecture without workarounds.
+
+## Demo
+
+Convert demo [action](src/action-demo.js) and [test file](src/action-demo.test.js) to use module mocks.
 
 ## Conclusion
 
