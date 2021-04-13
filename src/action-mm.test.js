@@ -1,4 +1,4 @@
-const { getServiceAction } = require("./action-di");
+const { getServiceAction } = require("./action-mm");
 
 const { getService } = require("./service");
 const Logger = require("./logger");

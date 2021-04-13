@@ -1,4 +1,4 @@
-const { getServiceAction } = require("./action-di");
+const { getServiceAction } = require("./action-dp");
 
 describe("getServiceAction", () => {
   let context, guid, dependencies;

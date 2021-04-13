@@ -13,7 +13,7 @@ A dependency parameter is a pattern of passing a function's dependencies as a pa
 
 These are often the last parameter for any given function, are identified with an underscore `_`, and are assigned a default value with a generator function like `_getDependencies()`. This pattern allows us to mock any dependency within our testing environment to make assertions based on different branches.
 
-You can look at an example [action](src/action-di.js) and [test file](src/action-di.test.js).
+You can look at an example [action](src/action-dp.js) and [test file](src/action-dp.test.js).
 
 This pattern works, and there is no reason why you need to refactor any code that uses dependency parameters. That said, there are some drawbacks to a dependency parameter:
 
